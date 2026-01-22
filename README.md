@@ -83,7 +83,7 @@ EduPay Africa leverages the **Stellar blockchain** to:
 
 ## 👩‍💻 Author
 
-**Sandrine Tumukunde**  
+**Sandrine TUMUKUNDE**  
 Solo Builder | Africa  
 Built with ❤️ on Stellar
 
