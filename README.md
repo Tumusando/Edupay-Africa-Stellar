@@ -6,7 +6,7 @@ EduPay Africa is a **Stellar-powered education payment platform** enabling
 **fast, low-cost, and transparent** school fee and scholarship payments across Africa.  
 It empowers **schools, students, and parents** to manage payments efficiently.
 
----
+----
 
 ## 🚨 Problem
 
