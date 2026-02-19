@@ -1,47 +1,29 @@
-const express = require("express");
+// backend/routes/pay.js
+const express = require('express');
 const router = express.Router();
-const path = require("path");
-const fs = require("fs");
-require("dotenv").config(); // for .env
+const { validatePayment } = require('../validators/paymentValidator');
+const logger = require('../utils/logger');
 
-// Import validator + auth + service
-const validatePayment = require("../validators/paymentValidator");
-const auth = require("../middleware/auth");
-const sendPayment = require("../services/sendPayment");
+// Temporary in-memory storage for transactions
+const transactions = [];
 
-// POST /pay with auth
-router.post("/pay", auth, validatePayment, async (req, res) => {
-  try {
-    const result = await sendPayment(req.body);
+// POST /pay
+router.post('/', validatePayment, (req, res) => {
+  const { amount, receiver } = req.body;
+  const txHash = `FAKE_TX_${Date.now()}`;
+  const timestamp = new Date().toISOString();
 
-    res.json({
-      success: true,
-      data: result
-    });
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      error: error.message || "Payment failed"
-    });
-  }
+  const payment = { txHash, amount, receiver, timestamp };
+  transactions.push(payment);
+
+  logger.info(`Payment created: ${JSON.stringify(payment)}`);
+
+  res.status(200).json({ success: true, data: payment });
 });
 
-// GET /pay/history with auth
-router.get("/pay/history", auth, async (req, res) => {
-  const filePath = path.join(__dirname, "../logs/transactions.json");
-  let transactions = [];
-
-  try {
-    const data = fs.readFileSync(filePath, "utf-8");
-    transactions = JSON.parse(data);
-  } catch (err) {
-    transactions = [];
-  }
-
-  res.json({
-    success: true,
-    data: transactions
-  });
+// GET /pay/history
+router.get('/history', (req, res) => {
+  res.status(200).json({ success: true, data: transactions });
 });
 
 module.exports = router;

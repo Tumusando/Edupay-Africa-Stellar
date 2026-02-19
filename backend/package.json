@@ -8,6 +8,8 @@
   "dependencies": {
     "body-parser": "^1.20.4",
     "dotenv": "^17.3.1",
-    "express": "^4.22.1"
+    "express": "^4.22.1",
+    "morgan": "^1.10.1",
+    "winston": "^3.19.0"
   }
 }

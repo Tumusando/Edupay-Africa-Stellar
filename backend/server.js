@@ -1,16 +1,29 @@
-const express = require("express");
-const app = express();
-require("dotenv").config(); // 🔹 load .env
+// backend/server.js
+const express = require('express');
+const bodyParser = require('body-parser');
+const paymentRoutes = require('./routes/pay');
+const logger = require('./utils/logger');
 
-// Middleware
-app.use(express.json());
+const app = express();
+app.use(bodyParser.json());
+
+// Basic logging for requests
+app.use((req, res, next) => {
+  logger.info(`${req.method} ${req.url}`);
+  next();
+});
 
 // Routes
-const payRoute = require("./routes/pay");
-app.use("/", payRoute); // URL: /pay + /pay/history
+app.use('/pay', paymentRoutes);
+
+// Default route
+app.get('/', (req, res) => {
+  res.send('EduPay Africa Backend is running!');
+});
 
 // Start server
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  logger.info(`Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
