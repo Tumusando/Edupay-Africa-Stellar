@@ -90,10 +90,39 @@ Frontend, database, and live blockchain integration are planned for the next pha
 
 ## 🗺️ Roadmap
 
-- Phase 1: School fee payments MVP  
-- Phase 2: Scholarships & donor funding  
-- Phase 3: Multi-country expansion  
-- Phase 4: Smart contract & compliance layer  
+### Phase 1: School Fee Payments MVP ✅
+- Soroban Smart Contract deployed
+- Tuition payment & tracking
+- Blockchain-based storage
+
+### Phase 2: Scholarships & Donor Funding
+- Transparent scholarship distribution
+- Donor tracking dashboard
+- On-chain funding verification
+
+### Phase 3: Education Services Expansion
+- Transport booking & payments
+- Visa processing support
+- Student health services integration
+
+### Phase 4: EduPay Marketplace
+- Books, uniforms, devices
+- Escrow smart contracts
+- Verified sellers
+
+### Phase 5: Job & Opportunity Portal
+- Teacher recruitment
+- Internship listings
+- Scholarship opportunities
+
+### Phase 6: Multi-Country Expansion
+- Cross-border student payments
+- Regional compliance layer
+
+### Phase 7: Smart Contract Compliance & Governance
+- Regulatory compliance tools
+- On-chain auditability
+- DAO-style governance
 
 ---
 
