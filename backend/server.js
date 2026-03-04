@@ -1,29 +1,13 @@
-// backend/server.js
-const express = require('express');
-const bodyParser = require('body-parser');
-const paymentRoutes = require('./routes/pay');
-const logger = require('./utils/logger');
+import express from "express";
+import cors from "cors";
+import bodyParser from "body-parser";
+import stellarRoutes from "./routes/stellar.js";
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.json());
 
-// Basic logging for requests
-app.use((req, res, next) => {
-  logger.info(`${req.method} ${req.url}`);
-  next();
-});
+app.use("/api/stellar", stellarRoutes);
 
-// Routes
-app.use('/pay', paymentRoutes);
-
-// Default route
-app.get('/', (req, res) => {
-  res.send('EduPay Africa Backend is running!');
-});
-
-// Start server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  logger.info(`Server running on port ${PORT}`);
-  console.log(`Server running on port ${PORT}`);
-});
+const PORT = 5000;
+app.listen(PORT, () => console.log(`🚀 Backend running on http://localhost:${PORT}`));

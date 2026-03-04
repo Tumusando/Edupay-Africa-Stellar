@@ -1,40 +1,32 @@
-const { Server, Keypair, Networks, TransactionBuilder, Operation, Memo, Asset } = require('@stellar/stellar-sdk');
-require('dotenv').config();
+// backend/stellar/sendPayment.js
+import StellarSdk from '@stellar/stellar-sdk';
 
-const server = new Server('https://horizon-testnet.stellar.org');
-const networkPassphrase = Networks.TESTNET;
+const { Horizon, Keypair, TransactionBuilder, Networks, Operation, Asset } = StellarSdk;
 
-async function sendPayment({ payerSecret, receiver, amount, memo }) {
-    try {
-        const sourceKeypair = Keypair.fromSecret(payerSecret);
-        const account = await server.loadAccount(sourceKeypair.publicKey());
+// Horizon server (TESTNET)
+const server = new Horizon.Server('https://horizon-testnet.stellar.org');
 
-        const transaction = new TransactionBuilder(account, {
-            fee: await server.fetchBaseFee(),
-            networkPassphrase
-        })
-        .addOperation(Operation.payment({
-            destination: receiver,
-            asset: Asset.native(),
-            amount: amount.toString()
-        }))
-        .addMemo(Memo.text(memo || ''))
-        .setTimeout(180)
-        .build();
+export async function sendPayment(fromSecret, toPublicKey, amount) {
+  const sourceKeypair = Keypair.fromSecret(fromSecret);
 
-        transaction.sign(sourceKeypair);
-        const txResult = await server.submitTransaction(transaction);
+  const account = await server.loadAccount(sourceKeypair.publicKey());
 
-        return {
-            success: true,
-            transactionId: txResult.id,
-            ledger: txResult.ledger,
-            timestamp: txResult.created_at
-        };
+  const transaction = new TransactionBuilder(account, {
+    fee: await server.fetchBaseFee(),
+    networkPassphrase: Networks.TESTNET,
+  })
+    .addOperation(
+      Operation.payment({
+        destination: toPublicKey,
+        asset: Asset.native(),
+        amount: amount,
+      })
+    )
+    .setTimeout(30)
+    .build();
 
-    } catch (error) {
-        return { success: false, message: error.toString() };
-    }
+  transaction.sign(sourceKeypair);
+
+  const result = await server.submitTransaction(transaction);
+  return result;
 }
-
-module.exports = { sendPayment };
