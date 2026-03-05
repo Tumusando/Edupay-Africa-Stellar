@@ -1,6 +1,5 @@
 # EduPay Africa 🌍🎓
 
-<<<<<<< HEAD
 ![EduPay Africa Logo](docs/logo.png)
 
 EduPay Africa is a **Stellar-powered education payment platform** enabling
@@ -38,24 +37,39 @@ EduPay Africa leverages the Stellar blockchain to:
 - 🪙 Native support for stablecoins (USDC)
 - 🌍 Designed for cross-border payments
 - 🔍 Transparent and secure ledger
-
+  
 ---
 
 ## 🧱 Architecture
 
-
 ![EduPay Architecture](docs/architecture.png)
 
-- Frontend: Web / Mobile (React – planned)
-- Backend: Node.js + Express (implemented)
+- Frontend: React (implemented)
+- Backend: Node.js + Express 
 - Blockchain: Stellar Network
+- Smart Contracts: Soroban (Rust)
 - Payments: USDC on Stellar
 - Wallets: Stellar Keypairs
 
 ---
 
-## 🔑 Core Features
+🎓 Education Coverage Scope (End-to-End)
 
+-EduPay Africa is designed to support the full education journey:
+-Early Childhood Education (Nursery / Kindergarten)
+-Primary Education
+-Lower Secondary Education
+-Upper Secondary Education
+-Technical & Vocational Education (TVET)
+-Colleges & Professional Institutes
+-Undergraduate Degree Programs
+-Postgraduate Programs (Masters & PhD)
+-Professional Certifications
+-Cross-border education programs within Africa
+
+-----
+
+## 🔑 Core Features
 
 ### Implemented
 
@@ -82,19 +96,9 @@ EduPay Africa leverages the Stellar blockchain to:
 
 ## 🚀 Project Status
 
-**Current phase: MVP / Demo Backend**
+**Current Stage: MVP Prototype**
 
-- Backend payment APIs implemented
-- Transaction history endpoint working
-- Mock Stellar service (production-ready design)
-- GitHub repository structured for scale
-
-Frontend, database, and live blockchain integration are planned for the next phase.
-=======
-- MVP architecture designed
-- GitHub repository initialized
-- Stellar payment logic in progress
-
+EduPay Africa is currently in its Minimum Viable Product (MVP) stage, demonstrating the core tuition payment functionality. The platform uses Stellar smart contracts for secure, transparent, and blockchain-based payments, with a Node.js backend handling request processing, validation, and logging.
 ---
 
 ## 🌍 Impact
