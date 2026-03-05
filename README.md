@@ -55,7 +55,7 @@ EduPay Africa leverages the Stellar blockchain to:
 
 🎓 Education Coverage Scope (End-to-End)
 
--EduPay Africa is designed to support the full education journey:
+-EduPay Africa is designed to support the full education journey
 -Early Childhood Education (Nursery / Kindergarten)
 -Primary Education
 -Lower Secondary Education
