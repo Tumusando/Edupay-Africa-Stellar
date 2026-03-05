@@ -53,20 +53,20 @@ EduPay Africa leverages the Stellar blockchain to:
 
 ---
 
-🎓 Education Coverage Scope (End-to-End)
+### 🎓 Education Coverage Scope (End-to-End)
 
--EduPay Africa is designed to support the full education journey
--Early Childhood Education (Nursery / Kindergarten)
--Primary Education
--Lower Secondary Education
--Upper Secondary Education
--Technical & Vocational Education (TVET)
--Colleges & Professional Institutes
--Undergraduate Degree Programs
--Postgraduate Programs (Masters & PhD)
--Professional Certifications
--Cross-border education programs within Africa
+EduPay Africa is designed to support the full education journey:
 
+- Early Childhood Education (Nursery / Kindergarten)
+- Primary Education
+- Lower Secondary Education
+- Upper Secondary Education
+- Technical & Vocational Education (TVET)
+- Colleges & Professional Institutes
+- Undergraduate Degree Programs
+- Postgraduate Programs (Masters & PhD)
+- Professional Certifications
+- Cross-border education programs within Africa
 -----
 
 ## 🔑 Core Features
