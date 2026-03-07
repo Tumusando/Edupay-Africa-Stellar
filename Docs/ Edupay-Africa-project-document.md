@@ -118,6 +118,19 @@ By leveraging blockchain technology, EduPay Africa ensures secure, transparent, 
 * Professional Certifications  
 * Cross-border education programs  
 
+.EduPay Africa Ecosystem
+| Participant         | Role in the Ecosystem                        |
+| ------------------- | -------------------------------------------- |
+| Students            | Receive education services                   |
+| Parents             | Pay tuition fees through EduPay              |
+| Schools             | Receive and manage tuition payments          |
+| Teachers            | Receive salaries through the platform        |
+| NGOs                | Provide scholarships to students             |
+| Donors              | Fund education programs                      |
+| Marketplace Vendors | Sell books, uniforms, and devices            |
+| EduPay Platform     | Connects all participants                    |
+| Stellar Blockchain  | Provides secure and transparent transactions |
+
 ---
 
 ## 8. Go-To-Market Strategy
