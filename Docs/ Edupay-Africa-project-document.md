@@ -54,6 +54,18 @@ By leveraging blockchain technology, EduPay Africa ensures secure, transparent, 
 - **Smart Contracts:** Soroban  
 - **Payment Assets:** USDC stablecoin  
 
+.EduPay Africa System Architecture
+
+| Layer                  | Component              | Description                                                        |
+| ---------------------- | ---------------------- | ------------------------------------------------------------------ |
+| Users                  | Students & Parents     | Users who pay tuition fees through the platform                    |
+| Frontend               | EduPay Web App (React) | User interface where parents and students interact with the system |
+| Backend                | Node.js + Express API  | Handles requests, payment processing, and transaction logic        |
+| Blockchain Integration | Stellar SDK            | Connects the backend system to the Stellar blockchain              |
+| Smart Contracts        | Soroban                | Automates and verifies education payment transactions              |
+| Payment Asset          | USDC                   | Stablecoin used for secure tuition payments                        |
+| Network Fee            | XLM                    | Stellar Lumens used to pay blockchain transaction fees             |
+
 ---
 
 ## 5. Token & Payment Model
