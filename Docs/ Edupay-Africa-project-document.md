@@ -81,6 +81,18 @@ By leveraging blockchain technology, EduPay Africa ensures secure, transparent, 
   * Payments for marketplace services  
   * Governance participation  
 
+.EduPay Payment & Token Flow
+| Step | Actor              | Action                                              |
+| ---- | ------------------ | --------------------------------------------------- |
+| 1    | Parent / Student   | Opens the EduPay platform                           |
+| 2    | Parent / Student   | Initiates a tuition payment                         |
+| 3    | EduPay Backend     | Creates and processes the payment transaction       |
+| 4    | Stellar Blockchain | Executes and records the transaction                |
+| 5    | XLM                | Used as the blockchain network transaction fee      |
+| 6    | USDC               | Tuition payment is transferred to the school wallet |
+| 7    | School             | Receives and verifies the payment                   |
+| 8    | Future SANDO Token | Can provide rewards and governance features         |
+
 ---
 
 ## 6. Core Platform Features
