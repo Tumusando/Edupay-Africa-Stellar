@@ -118,6 +118,38 @@ EduPay Africa is currently in its Minimum Viable Product (MVP) stage, demonstrat
 
 ---
 
+## 📈 Go-To-Market Strategy
+
+EduPay Africa will grow through strategic partnerships with schools and education institutions across Africa.
+
+### 1. Pilot Schools
+EduPay Africa will start by partnering with a small number of pilot schools to test and validate the platform with real tuition payments. This stage helps refine the product based on real user feedback.
+
+### 2. School Administration Integration
+Schools will integrate EduPay Africa into their financial systems to manage:
+- Tuition payments
+- Payment tracking
+- Financial reporting
+
+This makes it easier for schools to manage education finances in one platform.
+
+### 3. Teacher & Staff Salary Payments
+Schools will also be able to pay **teachers and staff salaries through EduPay Africa**.  
+By processing payroll through the platform, teachers and employees become active users, significantly increasing adoption.
+
+### 4. NGO & Scholarship Partnerships
+EduPay Africa will partner with NGOs and scholarship providers to distribute **student funding transparently using blockchain**, ensuring that funds reach the intended students.
+
+### 5. Student & Parent Adoption
+Students and parents will access EduPay Africa through a simple digital platform to:
+- Pay school fees
+- Track payment history
+- Receive scholarship funding
+
+### 6. Regional Expansion
+After validating the model with partner schools, EduPay Africa will expand to support **cross-border education payments across multiple African countries**.
+
+
 ## 🗺️ Roadmap
 
 ### Phase 1: School Fee Payments MVP ✅
