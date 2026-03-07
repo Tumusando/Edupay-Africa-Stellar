@@ -12,13 +12,13 @@ It empowers **schools, students, and parents** to manage payments efficiently.
 
 In many parts of East Africa:
 
--EduPay Africa solves this problem by using the Stellar blockchain to enable fast, low-cost, and transparent school fee payments.
-
-Parents can send payments digitally, schools can verify them instantly, and every transaction is recorded on the blockchain for transparency.
 
 -Many parents do not have access to reliable banking systems
+
 -School payments are often done manually or through expensive transfers
+
 -Cross-border payments are slow and costly
+
 -Schools struggle to track and verify payments
 
 ---
@@ -26,6 +26,10 @@ Parents can send payments digitally, schools can verify them instantly, and ever
 ## 💡 Solution
 
 EduPay Africa leverages the Stellar blockchain to:
+
+-EduPay Africa solves this problem by using the Stellar blockchain to enable fast, low-cost, and transparent school fee payments.
+
+Parents can send payments digitally, schools can verify them instantly, and every transaction is recorded on the blockchain for transparency.
 
 - Enable instant school fee payments using USDC
 - Provide transparent, on-chain payment records
