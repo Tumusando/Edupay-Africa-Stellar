@@ -165,7 +165,7 @@ Unauthorized copying, modification, distribution, or use of this code is strictl
 
 ## 👩‍💻 Author
 
-**SANDRINE TUMUKUNDE**  
+**Sandrine TUMUKUNDE**  
 Solo Builder | Africa  
 Built with ❤️ on Stellar
 
