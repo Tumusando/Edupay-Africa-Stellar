@@ -12,10 +12,10 @@ It empowers **schools, students, and parents** to manage payments efficiently.
 
 In many parts of East Africa:
 
-- Parents lack access to formal banking services
-- School fee payments are slow, expensive, and unreliable
-- Scholarships and bursaries are delayed or mismanaged
-- Schools struggle with payment tracking and reconciliation
+-Many parents do not have access to reliable banking systems
+-School payments are often done manually or through expensive transfers
+-Cross-border payments are slow and costly
+-Schools struggle to track and verify payments
 
 ---
 
