@@ -1,0 +1,135 @@
+# EduPay Africa 🌍🎓
+
+### Blockchain-Powered Education Finance Platform for Africa
+
+---
+
+## 1. Project Overview
+
+EduPay Africa is a blockchain-powered platform designed to simplify and modernize education payments across Africa.
+
+The platform enables students, parents, schools, and education partners to send and receive tuition payments quickly, securely, and transparently using the Stellar blockchain.
+
+EduPay Africa aims to become the **financial infrastructure for education across Africa**, enabling not only tuition payments but also scholarships, education services, and employment opportunities within the education ecosystem.
+
+---
+
+## 2. Problem Statement
+
+Education payment systems across many African countries face several challenges:
+
+* Limited access to formal banking systems
+* High transaction costs for cross-border payments
+* Lack of transparency in scholarship distribution
+* Manual school payment tracking systems
+* Difficulty verifying and reconciling payments
+
+These challenges create inefficiencies that affect students, parents, schools, and donors.
+
+---
+
+## 3. Solution
+
+EduPay Africa addresses these challenges by providing a blockchain-based education payment infrastructure.
+
+The platform enables:
+
+* Fast digital tuition payments
+* Transparent transaction tracking
+* Cross-border education payments
+* Scholarship distribution through blockchain
+* Financial management tools for schools
+
+By leveraging blockchain technology, EduPay Africa ensures secure, transparent, and low-cost education payments.
+
+---
+
+## 4. System Architecture
+
+![System Architecture](./architecture.png)
+
+- **Frontend:** React-based user interface  
+- **Backend:** Node.js + Express handling APIs and transactions  
+- **Blockchain Layer:** Stellar Network  
+- **Smart Contracts:** Soroban  
+- **Payment Assets:** USDC stablecoin  
+
+---
+
+## 5. Token & Payment Model
+
+![Token Economics](./tokeneconomic.png)
+
+- **Stablecoin Payments:** USDC for tuition  
+- **Transaction Fees:** XLM used for network fees on Stellar blockchain  
+- **Local Payment Integrations (Future):** Mobile money, banking APIs  
+- **SANDO Token (Future Utility Token):**  
+  * Platform transaction incentives  
+  * Rewards for participants  
+  * Payments for marketplace services  
+  * Governance participation  
+
+---
+
+## 6. Core Platform Features
+
+1. Tuition Payments  
+2. Transaction History  
+3. Payment Tracking  
+4. Scholarship Distribution  
+5. Salary Payments  
+
+---
+
+## 7. Education Coverage Scope
+
+* Early Childhood Education (Nursery / Kindergarten)  
+* Primary Education  
+* Lower Secondary Education  
+* Upper Secondary Education  
+* TVET  
+* Colleges & Professional Institutes  
+* Undergraduate Programs  
+* Postgraduate Programs (Masters & PhD)  
+* Professional Certifications  
+* Cross-border education programs  
+
+---
+
+## 8. Go-To-Market Strategy
+
+- Pilot Schools  
+- School Financial Integration  
+- Teacher & Staff Salary Payments  
+- NGO & Scholarship Partnerships  
+- Student & Parent Adoption  
+- Regional Expansion  
+
+---
+
+## 9. Roadmap
+
+1. Phase 1 — Tuition Payment MVP  
+2. Phase 2 — Scholarships & Donor Funding  
+3. Phase 3 — Education Services Expansion  
+4. Phase 4 — EduPay Marketplace  
+5. Phase 5 — Jobs & Opportunities  
+6. Phase 6 — Multi-Country Expansion  
+7. Phase 7 — Governance & Compliance  
+
+---
+
+## 10. Impact
+
+- Reduced education payment costs  
+- Increased financial transparency  
+- Improved access to education funding  
+- Digital financial infrastructure for schools  
+- Scalable education ecosystem across Africa  
+
+---
+
+## 11. Author
+
+Sandrine Tumukunde  
+Founder & Builder — EduPay Africa
